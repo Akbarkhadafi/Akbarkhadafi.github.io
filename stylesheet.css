@@ -434,14 +434,3 @@ select option {
     margin-top: 20px;
   }
 }
-
-@media (max-width: 375px) {
-
-  header {
-    padding: 40px 30px;
-  }
-
-  .language {
-    width: 180px;
-  }
-}
