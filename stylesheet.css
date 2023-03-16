@@ -181,7 +181,7 @@ select option {
   flex-direction: column;
   width: 175px;
   flex-wrap: wrap;
-  margin: 0 1%;
+  margin: 15px 1%;
   gap: 0 10px;
   /*max-width: fit-content;
   */transition: all 0.5s;
@@ -406,6 +406,30 @@ select option {
 }
 
 @media (max-width: 670px) {
+  header{
+    padding: 30px 5px 30px 0px;
+  }
+
+  .email {
+    width: 80%;
+  }
+
+  .contents-wrapper {
+    margin: 15px 0;
+  }
+
+  .contents-item{
+    width: 150px;
+  }
+
+  .req-form {
+    flex-direction: column;
+  }
+
+  .req-form img {
+    width: 200px;
+  }
+
   .footer-wrapper {
     display: flex;
     flex-direction: column;
@@ -421,16 +445,24 @@ select option {
   }
 
   .footer-wrapper ul {
+    width: 100%;
     margin: 20px auto;
   }
 
   .socmed-logo {
-    width: 300px;
+    width: 100%;
     margin: 20px auto;
   }
 
   .req-form {
     padding: 40px 20px;
     margin-top: 20px;
+  }
+
+}
+
+@media (max-width : 460px){
+  .language{
+    width: fit-content;
   }
 }
